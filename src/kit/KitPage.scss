@@ -1,0 +1,78 @@
+.kit-page {
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  & {
+    width: 100%;
+    height: auto;
+    animation: fadeIn 1s;
+  }
+
+  .kit-container {
+    width: 70vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
+
+  .kit-background {
+    position: fixed;
+    z-index: -1000;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background: linear-gradient(white, #bdbdbd);
+    mask-image: linear-gradient(to bottom, transparent 8%, black);
+    top: 0;
+    left: 0;
+  }
+
+  .video-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .video-player {
+    border-radius: 5px;
+    width: 80%;
+    filter: drop-shadow(0px 0px 10px rgba(100, 100, 100, .5));
+  }
+
+  .design-container {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .design-title {
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #124116;
+  }
+
+  .design-grid {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: grid;
+    gap: 10px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  }
+}
+
+.kit-background-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+}

@@ -8,7 +8,6 @@ body {
   width: 100vw;
   height: 100%;
   overflow-x: hidden;
-  background: linear-gradient(white, #A5D6A7) no-repeat;
 }
 
 :root {
