@@ -5,11 +5,16 @@ import App from './App.jsx'
 import './index.css'
 import ErrorPage from "./ErrorPage.jsx";
 import MaterialGrid, {loader as materialLoader} from "./material/MaterialGrid.jsx";
+import AlgaeInfoPage from "./algae/AlgaeInfoPage.jsx";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App/>,
+    },
+    {
+        path: "/algae",
+        element: <AlgaeInfoPage/>
     },
     {
         path: "/materials",

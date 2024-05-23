@@ -23,8 +23,13 @@ const NavBar = () => {
                     <Link to="/" className="title-nav-link">BioBloom</Link>
                 </li>
                 <li>
-                    <Link to="/materials" className="nav-link">
-                        <span className="nav-span">Mission</span>
+                    <Link to="/" className="nav-link">
+                        <span className="nav-span">Design</span>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/algae" className="nav-link">
+                        <span className="nav-span">Algae</span>
                     </Link>
                 </li>
                 <li>

@@ -1,0 +1,29 @@
+.product-container {
+  & {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product-title {
+    margin: 0 0 10px 0;
+    height: auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background: #124116;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-wrap: break-word;
+  }
+
+  .product-description {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    height: auto;
+    word-wrap: break-word;
+    color: #124116;
+  }
+}
