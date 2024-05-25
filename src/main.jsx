@@ -22,11 +22,6 @@ const router = createBrowserRouter([
         element: <KitPage/>
     },
     {
-        path: "/materials",
-        element: <MaterialGrid/>,
-        loader: materialLoader
-    },
-    {
         path: "/*",
         element: <ErrorPage/>
     }

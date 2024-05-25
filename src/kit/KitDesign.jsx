@@ -3,7 +3,17 @@ import React from "react";
 
 const KitDesign = ({img, title, body}) => {
     return (
-        <div className="design-container">
+        <div className="design-container"
+             onMouseEnter={(e) => {
+                 const imgElm = e.currentTarget.querySelector(".design-img");
+                 imgElm.classList.add("design-img-hover");
+             }}
+
+             onMouseLeave={(e) => {
+                 const imgElm = e.currentTarget.querySelector(".design-img");
+                 imgElm.classList.remove("design-img-hover");
+             }}
+        >
             <div className="img-container">
                 <img className="design-img" src="/green_shell.jpg" alt=""/>
             </div>
