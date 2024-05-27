@@ -22,10 +22,10 @@ function App() {
             <div className="product-grid">
                 <img src="/science_lab.jpg" alt="" className="home-img" ref={homeImg}/>
                 <HomePageProduct
-                    title={"BioBloom Kit. Grow It Yourself."}
-                    description={"Our mission is to develop a product that educates our customers about the benefits of algae. " +
-                        "Allowing our customers to grow the algae brings more fun to the process and makes them appreciate " +
-                        "algae more. The kit also comes with LED lights enhancing customization capabilities."}>
+                    title="BioBloom Kit. Grow It Yourself."
+                    description="Our innovative BioBloom Kit is designed to help you grow your own algae right in the
+                     classroom or at home. It comes equipped with everything you need to cultivate your own algae,
+                     including customizable LED lights.">
                 </HomePageProduct>
             </div>
         </div>

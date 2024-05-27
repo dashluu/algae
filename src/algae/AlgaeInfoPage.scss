@@ -10,6 +10,9 @@
 
   & {
     height: auto;
+  }
+
+  .algae-info-grid-container {
     animation: fadeIn 1s;
   }
 
@@ -35,9 +38,7 @@
   .algae-info-grid {
     width: 70vw;
     height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    margin: 30px auto;
     display: grid;
     gap: 30px 30px;
     grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));

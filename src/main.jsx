@@ -7,6 +7,7 @@ import ErrorPage from "./ErrorPage.jsx";
 import MaterialGrid, {loader as materialLoader} from "./material/MaterialGrid.jsx";
 import AlgaeInfoPage from "./algae/AlgaeInfoPage.jsx";
 import KitPage from "./kit/KitPage.jsx";
+import AboutPage from "./about/AboutPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     {
         path: "/kit",
         element: <KitPage/>
+    },
+    {
+        path: "/about",
+        element: <AboutPage/>
     },
     {
         path: "/*",

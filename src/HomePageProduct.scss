@@ -1,6 +1,6 @@
 .product-container {
   & {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -25,11 +25,21 @@
     height: auto;
     word-wrap: break-word;
     color: #124116;
+    text-align: center;
   }
 
-  .product-link {
-    font-size: 18px;
+  .product-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
     font-weight: 500;
-    color: #0091EA;
+    font-size: 18px;
+    color: #C8E6C9;
+    background-color: #124116;
+    border: 1px solid #124116;
+    border-radius: 500px;
+    padding: 8px 15px 8px 15px;
+    cursor: pointer;
   }
 }

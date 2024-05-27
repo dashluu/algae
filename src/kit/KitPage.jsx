@@ -35,52 +35,29 @@ function KitPage() {
                 <div className="design-container">
                     <div className="design-title">Design</div>
                     <div className="design-grid">
-                        <KitDesign img="" title="Glass container" body="Lorem Ipsum is simply dummy text of the printing
-                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                        <KitDesign img="" title="Glass Container"
+                                   body="Glass containers serve as the primary vessels for cultivating algae. Their
+                                   transparency allows for easy observation and monitoring of algae growth, while their
+                                   non-reactive nature ensures a suitable environment for algae cultivation without
+                                   contamination."
                         ></KitDesign>
-                        <KitDesign img="" title="Plastic Lid" body="Lorem Ipsum is simply dummy text of the printing
-                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                        <KitDesign img="" title="3D Printed Lid" body="3D printed cover acts as protective barriers for
+                        the algae cultivation containers, shielding them from external contaminants and maintaining
+                        optimal growing conditions. It also helps regulate temperature and humidity levels, promoting
+                        consistent algae growth and productivity."
                         ></KitDesign>
-                        <KitDesign img="" title="Algae Culture Kit" body="Lorem Ipsum is simply dummy text of the printing
-                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                        <KitDesign img="" title="Algae Culture Kit" body="Algae culture kit and fertilizer are essential
+                        for initiating algae cultivation and serve as the starting point for algae growth. By providing
+                        high-quality algae, the project ensures successful cultivation and robust algae production."
                         ></KitDesign>
-                        <KitDesign img="" title="LED Lights" body="Lorem Ipsum is simply dummy text of the printing
-                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                        <KitDesign img="" title="LED Lights" body="LED lights serve as a way to decorate the algae box.
+                        LED lights provide aesthetic appeal to the algae cultivation setup, enhancing its visual appeal
+                        and educational value."
                         ></KitDesign>
                     </div>
                 </div>
                 <div className="instruction-container">
                     <div className="instruction-title">Instructions</div>
-                    <ol className="instruction-body">
-                        <li>
-                            <strong>Dissolve the salts</strong>:<br/>Pour a bag of salts into a half-liter bottle of
-                            drinking water. Shake until it dissolves.
-                        </li>
-                        <li>
-                            <strong>Add the Nutrients</strong>:<br/>Add the entire vial of the nutrients to the bottle
-                            of water. This is now your "culture media". Store it in a cool dark place.
-                        </li>
-                        <li>
-                            <strong>Fill the culture flask with culture media</strong>:<br/>Fill to 2/3 full,
-                            approximately 50mL.
-                        </li>
-                        <li>
-                            <strong>Add the inoculum</strong>:<br/>Cap the culture and shake.
-                        </li>
-                        <li>
-                            <strong>Place in light</strong>:<br/>Dim light for the first 2 days. Avoid direct sunlight
-                            (culture can get too hot). A good place to start the culture is next to a light source
-                            (a fluorescent bulb) with a timer (12-hour light cycle).
-                        </li>
-                        <li>
-                            <strong>Shake as often as you can</strong>:<br/>Give the culture a little mixing at least
-                            once daily.
-                        </li>
-                    </ol>
                 </div>
             </div>
         </div>
