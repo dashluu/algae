@@ -2,6 +2,7 @@ import './AlgaeInfoPage.scss'
 import NavBar from "../navbar/NavBar.jsx";
 import AlgaeInfoCard from "./AlgaeInfoCard.jsx";
 import {useEffect, useRef} from "react";
+import Config from "../config.js";
 
 function AlgaeInfoPage() {
     const algaeInfoImg = useRef(null);
@@ -20,7 +21,7 @@ function AlgaeInfoPage() {
         <div className="algae-info-page">
             <NavBar/>
             <div className="algae-info-grid-container">
-                <img src="/green_algae_2.jpg" alt="" className="algae-info-img" ref={algaeInfoImg}/>
+                <img src={`${Config.url}/green_algae_2.jpg`} alt="" className="algae-info-img" ref={algaeInfoImg}/>
                 <div className="algae-info-title">Did you know?</div>
                 <div className="algae-info-grid">
                     <AlgaeInfoCard

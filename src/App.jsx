@@ -2,6 +2,7 @@ import './App.scss'
 import NavBar from "./navbar/NavBar.jsx";
 import HomePageProduct from "./HomePageProduct.jsx";
 import {useEffect, useRef} from "react";
+import Config from "./config.js";
 
 function App() {
     const homeImg = useRef(null);
@@ -20,7 +21,7 @@ function App() {
         <div className="home-page">
             <NavBar/>
             <div className="product-grid">
-                <img src="/science_lab.jpg" alt="" className="home-img" ref={homeImg}/>
+                <img src={`${Config.url}/science_lab.jpg`} alt="" className="home-img" ref={homeImg}/>
                 <HomePageProduct
                     title="BioBloom Kit. Grow It Yourself."
                     description="Our innovative BioBloom Kit is designed to help you grow your own algae right in the

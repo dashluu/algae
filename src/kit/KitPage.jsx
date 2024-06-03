@@ -3,6 +3,7 @@ import NavBar from "../navbar/NavBar.jsx";
 import {useEffect, useRef} from "react";
 import KitDesign from "./KitDesign.jsx";
 import InstructionCard from "./InstructionCard.jsx";
+import Config from "../config.js";
 
 function KitPage() {
     const kitBackground = useRef(null);
@@ -25,26 +26,26 @@ function KitPage() {
                 <div className="design-container">
                     <div className="design-title">Design</div>
                     <div className="design-grid">
-                        <KitDesign img="/glass_container.jpg" title="Glass Container"
+                        <KitDesign img={`${Config.url}/glass_container.jpg`} title="Glass Container"
                                    body="Glass containers serve as the primary vessels for cultivating algae. Their
                                    transparency allows for easy observation and monitoring of algae growth, while their
                                    non-reactive nature ensures a suitable environment for algae cultivation without
                                    contamination."
                         ></KitDesign>
-                        <KitDesign img="/lid.jpg" title="3D Printed Lid" body="3D printed cover acts as protective barriers for
+                        <KitDesign img={`${Config.url}/lid.jpg`} title="3D Printed Lid" body="3D printed cover acts as protective barriers for
                         the algae cultivation containers, shielding them from external contaminants and maintaining
                         optimal growing conditions. It also helps regulate temperature and humidity levels, promoting
                         consistent algae growth and productivity."
                         ></KitDesign>
-                        <KitDesign img="/algae_culture_kit.jpg" title="Algae Culture Kit" body="Algae culture kit and fertilizer are essential
+                        <KitDesign img={`${Config.url}/algae_culture_kit.jpg`} title="Algae Culture Kit" body="Algae culture kit and fertilizer are essential
                         for initiating algae cultivation and serve as the starting point for algae growth. By providing
                         high-quality algae, the project ensures successful cultivation and robust algae production."
                         ></KitDesign>
-                        <KitDesign img="/led.jpg" title="LED Lights" body="LED lights serve as a way to decorate the algae box.
+                        <KitDesign img={`${Config.url}/led.jpg`} title="LED Lights" body="LED lights serve as a way to decorate the algae box.
                         LED lights provide aesthetic appeal to the algae cultivation setup, enhancing its visual appeal
                         and educational value."
                         ></KitDesign>
-                        <KitDesign img="shipping_box.jpg" title="Shipping Box" body="The shipping box is made of carbon so
+                        <KitDesign img={`${Config.url}/shipping_box.jpg`} title="Shipping Box" body="The shipping box is made of carbon so
                         it is environmentally friendly. It includes a glass container, a lid, an algae culture kit, and
                         LED lights."
                         ></KitDesign>

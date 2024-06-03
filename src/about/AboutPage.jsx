@@ -1,3 +1,4 @@
+import Config from "../config.js";
 import KitDesign from "../kit/KitDesign.jsx";
 import NavBar from "../navbar/NavBar.jsx";
 import './AboutPage.scss'
@@ -37,19 +38,19 @@ function AboutPage() {
                 <div className="team-container">
                     <div className="team-title">Meet the Team</div>
                     <div className="team-grid">
-                        <KitDesign img="/jacob.jpg" title="Jacob Zhang"
+                        <KitDesign img={`${Config.url}/jacob.jpg`} title="Jacob Zhang"
                                    body=""
                         ></KitDesign>
-                        <KitDesign img="/jessie.jpg" title="Jessie Ouyang"
+                        <KitDesign img={`${Config.url}/jessie.jpg`} title="Jessie Ouyang"
                                    body=""
                         ></KitDesign>
-                        <KitDesign img="/amaris.jpg" title="Amaris Carrera"
+                        <KitDesign img={`${Config.url}/amaris.jpg`} title="Amaris Carrera"
                                    body=""
                         ></KitDesign>
-                        <KitDesign img="/leslie.jpg" title="Leslie Ruiz"
+                        <KitDesign img={`${Config.url}/leslie.jpg`} title="Leslie Ruiz"
                                    body=""
                         ></KitDesign>
-                        <KitDesign img="/trung.jpg" title="Trung Dat Luu"
+                        <KitDesign img={`${Config.url}/trung.jpg`} title="Trung Dat Luu"
                                    body=""
                         ></KitDesign>
                     </div>
