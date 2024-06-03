@@ -20,20 +20,20 @@ const NavBar = () => {
         <nav className="navbar" ref={navbar}>
             <ul>
                 <li>
-                    <Link to="/" className="title-nav-link">BioBloom</Link>
+                    <Link to="/algae/" className="title-nav-link">BioBloom</Link>
                 </li>
                 <li>
-                    <Link to="/algae-info" className="nav-link">
+                    <Link to="/algae/algae-info" className="nav-link">
                         <span className="nav-span">Algae</span>
                     </Link>
                 </li>
                 <li>
-                    <Link to="/kit" className="nav-link">
+                    <Link to="/algae/kit" className="nav-link">
                         <span className="nav-span">DIY Kit</span>
                     </Link>
                 </li>
                 <li>
-                    <Link to="/about" className="nav-link">
+                    <Link to="/algae/about" className="nav-link">
                         <span className="nav-span">About</span>
                     </Link>
                 </li>

@@ -10,19 +10,19 @@ import AboutPage from "./about/AboutPage.jsx";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/algae/",
         element: <App/>,
     },
     {
-        path: "/algae-info",
+        path: "/algae/algae-info",
         element: <AlgaeInfoPage/>
     },
     {
-        path: "/kit",
+        path: "/algae/kit",
         element: <KitPage/>
     },
     {
-        path: "/about",
+        path: "/algae/about",
         element: <AboutPage/>
     },
     {
