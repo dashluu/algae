@@ -15,7 +15,7 @@ const router = createBrowserRouter([
         element: <App/>,
     },
     {
-        path: "/algae",
+        path: "/algae-info",
         element: <AlgaeInfoPage/>
     },
     {
