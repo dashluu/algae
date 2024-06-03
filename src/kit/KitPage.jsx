@@ -45,7 +45,7 @@ function KitPage() {
                         LED lights provide aesthetic appeal to the algae cultivation setup, enhancing its visual appeal
                         and educational value."
                         ></KitDesign>
-                        <KitDesign img={`${Config.url}/shipping_box.jpg`} title="Shipping Box" body="The shipping box is made of carbon so
+                        <KitDesign img={`${Config.url}/shipping_box.jpg`} title="Shipping Box" body="The shipping box is cardboard so
                         it is environmentally friendly. It includes a glass container, a lid, an algae culture kit, and
                         LED lights."
                         ></KitDesign>
