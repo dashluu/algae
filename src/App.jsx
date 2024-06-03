@@ -21,7 +21,7 @@ function App() {
         <div className="home-page">
             <NavBar/>
             <div className="product-grid">
-                <img src={`${Config.url}/science_lab.jpg`} alt="" className="home-img" ref={homeImg}/>
+                <img src={`${Config.url}/product.jpg`} alt="" className="home-img" ref={homeImg}/>
                 <HomePageProduct
                     title="BioBloom Kit. Grow It Yourself."
                     description="Our innovative BioBloom Kit is designed to help you grow your own algae right in the
