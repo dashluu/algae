@@ -20,7 +20,7 @@ const NavBar = () => {
         <nav className="navbar" ref={navbar}>
             <ul>
                 <li>
-                    <Link to="/" className="title-nav-link">BioBloom</Link>
+                    <Link to="/algae" className="title-nav-link">BioBloom</Link>
                 </li>
                 <li>
                     <Link to="/algae-info" className="nav-link">
