@@ -90,7 +90,7 @@ Error generating stack: `+i.message+`
                         for initiating algae cultivation and serve as the starting point for algae growth. By providing
                         high-quality algae, the project ensures successful cultivation and robust algae production.`}),C.jsx(Et,{img:`${rt.url}/led.jpg`,title:"LED Lights",body:`LED lights serve as a way to decorate the algae box.
                         LED lights provide aesthetic appeal to the algae cultivation setup, enhancing its visual appeal
-                        and educational value.`}),C.jsx(Et,{img:`${rt.url}/shipping_box.jpg`,title:"Shipping Box",body:`The shipping box is made of carbon so
+                        and educational value.`}),C.jsx(Et,{img:`${rt.url}/shipping_box.jpg`,title:"Shipping Box",body:`The shipping box is cardboard so
                         it is environmentally friendly. It includes a glass container, a lid, an algae culture kit, and
                         LED lights.`})]})]}),C.jsxs("div",{className:"instruction-container",children:[C.jsx("div",{className:"instruction-title",children:"Instructions"}),C.jsxs("div",{className:"instruction-grid",children:[C.jsx(Fn,{title:"1. Dissolve the salts",body:`Pour a bag of salts into a half-liter bottle of drinking water. Shake until it
                             dissolves.`}),C.jsx(Fn,{title:"2. Add the nutrients",body:`Add the entire vial of the nutrients to the bottle of water. This is now your culture
