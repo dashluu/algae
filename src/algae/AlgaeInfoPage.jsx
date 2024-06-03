@@ -20,7 +20,7 @@ function AlgaeInfoPage() {
         <div className="algae-info-page">
             <NavBar/>
             <div className="algae-info-grid-container">
-                <img src="/green_algae.jpg" alt="" className="algae-info-img" ref={algaeInfoImg}/>
+                <img src="/green_algae_2.jpg" alt="" className="algae-info-img" ref={algaeInfoImg}/>
                 <div className="algae-info-title">Did you know?</div>
                 <div className="algae-info-grid">
                     <AlgaeInfoCard
@@ -62,6 +62,9 @@ function AlgaeInfoPage() {
                     ></AlgaeInfoCard>
                 </div>
             </div>
+            <footer>
+                <small>Copyright &copy; 2024, BioBloom. All rights reserved.</small>
+            </footer>
         </div>
     )
 }

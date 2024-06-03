@@ -5,7 +5,7 @@ const KitDesign = ({img, title, body}) => {
     return (
         <div className="design-container">
             <div className="img-container">
-                <img className="design-img" src="/green_shell.jpg" alt=""/>
+                <img className="design-img" src={img} alt=""/>
             </div>
             <div className="description-container">
                 <div className="description-title">{title}</div>

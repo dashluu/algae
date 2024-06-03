@@ -35,26 +35,33 @@ function AboutPage() {
                     </div>
                 </div>
                 <div className="team-container">
-                    <div className="team-title">The Team</div>
+                    <div className="team-title">Meet the Team</div>
                     <div className="team-grid">
-                        <KitDesign img="" title="Jacob Zhang"
-                                   body="CEO, Founder"
+                        <KitDesign img="/jacob.jpg" title="Jacob Zhang"
+                                   body=""
                         ></KitDesign>
-                        <KitDesign img="" title="Jessie Ouyang"
-                                   body="CTO, Founder"
+                        <KitDesign img="/jessie.jpg" title="Jessie Ouyang"
+                                   body=""
                         ></KitDesign>
-                        <KitDesign img="" title="Amaris Carrera"
-                                   body="Head of Design, Founder"
+                        <KitDesign img="/amaris.jpg" title="Amaris Carrera"
+                                   body=""
                         ></KitDesign>
-                        <KitDesign img="" title="Leslie Ruiz"
-                                   body="Head of Marketing, Founder"
+                        <KitDesign img="/leslie.jpg" title="Leslie Ruiz"
+                                   body=""
                         ></KitDesign>
-                        <KitDesign img="" title="Trung Dat Luu"
-                                   body="Software Engineer, Founder"
+                        <KitDesign img="/trung.jpg" title="Trung Dat Luu"
+                                   body=""
                         ></KitDesign>
                     </div>
                 </div>
             </div>
+            <div className="contact-container">
+                <div className="contact-title">Contact</div>
+                <div className="contact-body">
+                    <div className="email">If you have any questions, email BioBloom.sd@gmail.com</div>
+                </div>
+            </div>
+            <footer><small>Copyright &copy; 2024, BioBloom. All rights reserved.</small></footer>
         </div>
     )
 }
